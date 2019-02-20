@@ -1,0 +1,28 @@
+{
+  "name": "@pascallaier/wct-test-result-converter-junit",
+  "version": "1.0.0",
+  "description": "Web Component Tester Test Result Converter to JUnit ====================================================",
+  "main": "plugin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarkSideOfMo0n/wct-test-result-converter-junit.git"
+  },
+  "keywords": [
+    "wct",
+    "junit"
+  ],
+  "author": "Pascal Laier <pascal.laier@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DarkSideOfMo0n/wct-test-result-converter-junit/issues"
+  },
+  "homepage": "https://github.com/DarkSideOfMo0n/wct-test-result-converter-junit#readme",
+  "dependencies": {
+    "he": "^1.2.0",
+    "lodash": "^4.17.11",
+    "pixl-xml": "^1.0.13"
+  }
+}
