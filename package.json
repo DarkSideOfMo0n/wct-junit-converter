@@ -24,5 +24,14 @@
     "he": "^1.2.0",
     "lodash": "^4.17.11",
     "pixl-xml": "^1.0.13"
+  },
+  "wct-plugin": {
+    "cli-options": {
+      "output": {
+        "help": "output folder / file",
+        "full": "output",
+        "list": true
+      }
+    }
   }
 }
