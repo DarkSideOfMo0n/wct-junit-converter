@@ -24,7 +24,7 @@ module.exports = function (wct, pluginOptions) {
 
         var results = {
             testsuites: {
-                testsuite: _.map(_.sortBy(_.unique(_.pluck(tests, 'suite'))), function (suite) {
+                testsuite: _.map(_.sortBy(_.uniq(_.map(tests, 'suite'))), function (suite) {
                     var filteredTests = _.filter(tests, {
                         suite: suite
                     });
